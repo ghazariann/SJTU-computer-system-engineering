@@ -47,7 +47,7 @@ autoconf/autom4te.cache
 #m4/
 build/
 #*.m4
-*.o
+# *.o
 *.lo
 *.la
 *~
@@ -165,7 +165,7 @@ io_file
 # Compiled Object files
 *.slo
 *.lo
-*.o
+# *.o
 *.cuo
 
 # Compiled Dynamic libraries
