@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-tests",
+            "type": "shell",
+            "command": "rm /tmp/inocde_file",
+            "args": [
+                "rm /tmp/inocde_file",
+                // "build-tests",
+                // "-j"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
